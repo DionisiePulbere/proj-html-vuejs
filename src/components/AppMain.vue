@@ -1,10 +1,12 @@
 <script> 
 import MainSpecialties from "./MainSpecialties.vue"
+import MainFounder from "./MainFounder.vue"
 
 export default{
     name: "AppMain",
     components: {
         MainSpecialties,
+        MainFounder,
     },
         
 }
@@ -12,6 +14,7 @@ export default{
 
 <template>
   <MainSpecialties></MainSpecialties>
+  <MainFounder></MainFounder>
 </template>
 
 <style scoped lang="scss">

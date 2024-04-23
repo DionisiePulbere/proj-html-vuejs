@@ -17,7 +17,7 @@ export default{
                 <div class="text-center">
                     <h2>Our specialties<span class="brand-dot">.</span></h2>
                     <p class="gray-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <div class="line"></div>
+                    <div class="line-70"></div>
                 </div>
                 <div class="d-flex">
                     <div class="text-center">
@@ -63,9 +63,7 @@ section{
         width: 90%;
         margin: 0 auto;
         padding: 100px 0;
-        .line{
-            width: 70px;
-            border-bottom: 2px solid $brand-primary;
+        .line-70{
             margin: 0 auto;
         }
         img{
