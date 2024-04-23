@@ -26,6 +26,9 @@
                 <i class="fa-brands fa-facebook-f"></i>
                 <i class="fa-brands fa-twitter"></i>
             </div>
+            <div class="circle">
+                <img src="../assets/img/svg/svg-4.svg" alt="">
+            </div>
         </div>
     </div>
     <div class="btn-radious">
@@ -49,6 +52,15 @@ section{
             color: white;
             padding: 20px;
         }
+    }
+    .circle{
+        position: absolute;
+        width: 360px;
+        right: -160px;
+        top: -80px;
+        filter: invert(gray);
+        z-index: -1;
+
     }
 }
 
