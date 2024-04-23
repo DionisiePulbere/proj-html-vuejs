@@ -42,19 +42,21 @@ name: 'AppHero',
 
 <template>
     <section>
-        <div class="left" @click="showPrevious">    
-            <i class="fa-solid fa-arrow-left-long"></i>
-        </div>
-        <img :src="heros[isActive]" alt="">
-        <div class="right" @click="showNext">
-            <i class="fa-solid fa-arrow-right-long"></i>
-        </div>
-        <div class="hero-text col-4">
-            <h1>Our Team<span>.</span></h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam consequuntur reiciendis blanditiis exercitationem, est vero.</p>
-            <div>
-                <button class="ms-btn ms-btn-primary">read more <span class="line">|</span><i class="ps-3 fa-solid fa-arrow-right-long"></i></button>
-                <button class="ms-btn ms-btn-secondary">purchase<span class="line">|</span><i class="ps-3 fa-solid fa-arrow-right-long"></i></button>
+        <div class="ms-container-fluid">
+            <div class="left" @click="showPrevious">    
+                <i class="fa-solid fa-arrow-left-long"></i>
+            </div>
+            <img :src="heros[isActive]" alt="">
+            <div class="right" @click="showNext">
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+            <div class="hero-text col-4">
+                <h1>Our Team<span class="brand-dot">.</span></h1>
+                <p class="gray-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam consequuntur reiciendis blanditiis exercitationem, est vero.</p>
+                <div>
+                    <button class="ms-btn ms-btn-primary">read more <span class="line">|</span><i class="ps-3 fa-solid fa-arrow-right-long"></i></button>
+                    <button class="ms-btn ms-btn-secondary">purchase<span class="line">|</span><i class="ps-3 fa-solid fa-arrow-right-long"></i></button>
+                </div>
             </div>
         </div>
     </section>
@@ -72,6 +74,7 @@ img{
     right: 0;
 }
 section{
+    height: 720px;
     .hero-text{
         position: absolute;
         left: 300px;
@@ -79,9 +82,6 @@ section{
         z-index: 4;
         h1 {
             font-size: 70px;
-            span{
-                color: $brand-primary;
-            }
         }
     }
     .left{
@@ -128,9 +128,6 @@ section{
         top: 2px;
         right: 30px;
     }
-    p{
-    color: $color-secondary;
-    }  
 }
 
 

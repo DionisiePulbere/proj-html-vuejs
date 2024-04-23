@@ -5,7 +5,6 @@ import AppHero from "./AppHero.vue"
         name: 'AppHeader',
         components: {
         AppHero,
-
     },
         data() {
             return {
