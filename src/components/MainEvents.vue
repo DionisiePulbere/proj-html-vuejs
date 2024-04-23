@@ -88,11 +88,7 @@
         margin-right: 16px;
         height: 30%;
     }
-    .more{
-       text-transform: uppercase;
-       font-weight: 600;
-       font-size: 12px; 
-    }
+    
     .info{
         p{
             font-size: 12px;
