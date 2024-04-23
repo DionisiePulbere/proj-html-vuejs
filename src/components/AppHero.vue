@@ -53,8 +53,8 @@ name: 'AppHero',
             <h1>Our Team<span>.</span></h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam consequuntur reiciendis blanditiis exercitationem, est vero.</p>
             <div>
-                <button class="ms-btn ms-btn-primary">read more <span class="line">|</span><i class="fa-solid fa-arrow-right-long"></i></button>
-                <button class="ms-btn ms-btn-secondary">purchase<span class="line">|</span><i class="fa-solid fa-arrow-right-long"></i></button>
+                <button class="ms-btn ms-btn-primary">read more <span class="line">|</span><i class="ps-3 fa-solid fa-arrow-right-long"></i></button>
+                <button class="ms-btn ms-btn-secondary">purchase<span class="line">|</span><i class="ps-3 fa-solid fa-arrow-right-long"></i></button>
             </div>
         </div>
     </section>
@@ -93,12 +93,12 @@ section{
         cursor: pointer;
     }
     .right{
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    right: 40px;
-    z-index: 2;
-    cursor: pointer;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        right: 40px;
+        z-index: 2;
+        cursor: pointer;
     }
     .ms-btn{
         border: none;
@@ -106,9 +106,11 @@ section{
         font-size: 12px;
         padding: 10px 20px;
         margin-right: 14px;
+        position: relative;
         &:hover .line{
             display: none;
         }
+       
     }
     
     .ms-btn-primary{
@@ -122,10 +124,13 @@ section{
     .line{
         padding: 0 8px;
         font-size: 20px;
+        position: absolute;
+        top: 2px;
+        right: 30px;
     }
     p{
     color: $color-secondary;
-}  
+    }  
 }
 
 
