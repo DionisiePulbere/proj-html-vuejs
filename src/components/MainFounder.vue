@@ -7,7 +7,7 @@
 </script>
 
 <template>
-<section>
+<section class="founder">
     <div class="container-page d-flex">
         <div class="col-7 left">
             <img src="../assets/img/h1-img-01.jpg" alt="">

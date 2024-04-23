@@ -11,7 +11,7 @@ export default{
 </script>
 
 <template>
-    <section>
+    <section class="specialties">
         <div class="ms-container">
             <div class="container-page">
                 <div class="text-center">
