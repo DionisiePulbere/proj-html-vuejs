@@ -34,7 +34,7 @@
                                 text: "457 BigBlue Street, NY 10013"
                             },
                             {
-                                icon: "fa-solid fa-location-dot",
+                                icon: "fa-solid fa-phone",
                                 text: "(315) 5512-2579"
                             },
                             {
