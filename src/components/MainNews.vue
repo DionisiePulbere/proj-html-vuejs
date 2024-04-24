@@ -18,8 +18,8 @@
             <i class="fa-solid fa-arrow-left-long"></i>
         </div>
         <div class="circle">
-                <img src="../assets/img/svg/svg-4.svg" alt="">
-            </div>
+            <img src="../assets/img/svg/svg-4.svg" alt="">
+        </div>
         <div class="container-page py-5">
             <div class="text-center">
                 <h2>Latest news<span class="brand-dot">.</span></h2>
