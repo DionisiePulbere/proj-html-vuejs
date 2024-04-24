@@ -3,6 +3,7 @@ import MainSpecialties from "./MainSpecialties.vue"
 import MainFounder from "./MainFounder.vue"
 import MainEvents from "./MainEvents.vue"
 import MainCreative from "./MainCreative.vue"
+import MainNews from "./MainNews.vue"
 
 export default{
     name: "AppMain",
@@ -11,6 +12,7 @@ export default{
         MainFounder,
         MainEvents,
         MainCreative,
+        MainNews,
     },
         
 }
@@ -21,6 +23,7 @@ export default{
     <MainFounder></MainFounder>
     <MainEvents></MainEvents>
     <MainCreative></MainCreative>
+    <MainNews></MainNews>
 </template>
 
 <style scoped lang="scss">

@@ -57,6 +57,7 @@
 @use '../style/partials/variables' as *;
 section{
     position: relative;
+    background-color: white;
 }
 
 h4{
