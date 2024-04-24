@@ -5,6 +5,7 @@ import MainEvents from "./MainEvents.vue"
 import MainCreative from "./MainCreative.vue"
 import MainNews from "./MainNews.vue"
 import MainTestimonials from "./MainTestimonials.vue"
+import MainGallery from "./MainGallery.vue"
 
 export default{
     name: "AppMain",
@@ -15,6 +16,7 @@ export default{
         MainCreative,
         MainNews,
         MainTestimonials,
+        MainGallery,
 
     },
         
@@ -28,6 +30,7 @@ export default{
     <MainCreative></MainCreative>
     <MainNews></MainNews>
     <MainTestimonials></MainTestimonials>
+    <MainGallery></MainGallery>
 </template>
 
 <style scoped lang="scss">

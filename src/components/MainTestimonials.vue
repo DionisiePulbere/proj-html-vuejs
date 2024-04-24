@@ -77,7 +77,7 @@ import img3 from './../assets/img/h3-img-08.png'
             <div class="btn-radious">
                 <i class="fa-solid fa-arrow-up-long"></i>
             </div>
-            <h1>Testimonials.</h1>
+            <!-- <h1>Testimonials.</h1> -->
             <div class="left" @click="showPrevious">    
                 <i class="fa-solid fa-arrow-left-long"></i>
             </div>

@@ -147,9 +147,10 @@ li{
 
 .sub{
     border-bottom: 1px solid white;
-    position: absolute;
-    right: 200px;
-    top: 60%;
+    position: relative;
+    right: 280px;
+    top: 200px;
+    height: 30px;
     input{
         background-color: black;
         border: none;
