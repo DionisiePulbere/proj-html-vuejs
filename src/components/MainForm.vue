@@ -8,6 +8,12 @@
 
 <template>
     <section class="contact py-5">
+        <div class="btn-radious bottom">
+            <i class="fa-solid fa-arrow-up-long"></i>
+        </div>
+        <div class="btn-radious top">
+            <i class="fa-solid fa-arrow-up-long"></i>
+        </div>
         <div class="container-page d-flex">
             <div class="map col-6 py-5 me-5">
                 <div class="post-it">
@@ -75,8 +81,19 @@
 
 <style scoped lang="scss">
 @use '../style/partials/variables' as *;
+section{
+    position: relative;
+}
 img{
     width: 100%;
+}
+
+.top{
+    top: -20px;
+}
+
+.bottom{
+    bottom: 18%;
 }
 
 .col-20{
