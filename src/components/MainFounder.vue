@@ -54,13 +54,10 @@ section{
         }
     }
     .circle{
-        position: absolute;
         width: 360px;
         right: -160px;
         top: -80px;
-        filter: invert(gray);
         z-index: -1;
-
     }
 }
 

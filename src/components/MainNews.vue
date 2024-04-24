@@ -8,6 +8,18 @@
 
 <template>
     <section class="news py-5">
+        <div class="btn-radious">
+            <i class="fa-solid fa-arrow-up-long"></i>
+        </div>
+        <div class="arrow-right">
+            <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+        <div class="arrow-left">
+            <i class="fa-solid fa-arrow-left-long"></i>
+        </div>
+        <div class="circle">
+                <img src="../assets/img/svg/svg-4.svg" alt="">
+            </div>
         <div class="container-page py-5">
             <div class="text-center">
                 <h2>Latest news<span class="brand-dot">.</span></h2>
@@ -30,7 +42,7 @@
                             <p class="gray-text"><i class="fa-regular fa-clock"></i> May 5, 2019 <i class="fa-regular fa-user"></i> Amanda Doe</p>
                         </div>
                         <h3>Next Investment</h3>
-                        <p class="gray-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam neque cumque cupiditate ...</p>
+                        <p class="gray-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam neque ...</p>
                         <div class="more">read more</div>
                     </div>
                 </div>
@@ -49,7 +61,7 @@
                             <p class="gray-text"><i class="fa-regular fa-clock"></i> May 5, 2019 <i class="fa-regular fa-user"></i> Amanda Doe</p>
                         </div>
                         <h3>Team Building</h3>
-                        <p class="gray-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam neque cumque cupiditate ...</p>
+                        <p class="gray-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam neque ...</p>
                         <div class="more">read more</div>
                     </div>
                 </div>
@@ -68,7 +80,7 @@
                             <p class="gray-text"><i class="fa-regular fa-clock"></i> May 5, 2019 <i class="fa-regular fa-user"></i> Amanda Doe</p>
                         </div>
                         <h3>New Business Day</h3>
-                        <p class="gray-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam neque cumque cupiditate ...</p>
+                        <p class="gray-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam neque ...</p>
                         <div class="more">read more</div>
                     </div>
                 </div>
@@ -126,4 +138,29 @@ section{
     }
 }
 
+.btn-radious{
+    top:40%
+}
+
+.arrow-right{
+    font-size: 24px;
+    position: absolute;
+    right: 80px;
+    top: 50%;
+}
+
+.arrow-left{
+    font-size: 24px;
+    position: absolute;
+    left: 80px;
+    top: 50%;
+}
+
+.circle{
+    top: -80px;
+    left: 150px;
+    img{
+        width: 400px;
+    }
+}
 </style>

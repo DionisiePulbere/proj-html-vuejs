@@ -9,8 +9,8 @@
 <template>
     <section class="creative">
         <div class="btn-radious">
-                <i class="fa-solid fa-arrow-up-long"></i>
-            </div>
+            <i class="fa-solid fa-arrow-up-long"></i>
+        </div>
         <div class="container-page py-5 d-flex">
             <div class="col-6 py-5">
                 <h4>Creative Leader<span class="brand-dot">.</span></h4>
