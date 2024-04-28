@@ -12,24 +12,20 @@ import img3 from './../assets/img/h3-img-08.png'
                     {
                         image:img1,
                         name:"Cynthia Clark",
-                        number: "01",
-                        class: "jcs"
+                        number: "01"
                     },
                     {
                         image:img2,
                         name:"Mulan Tsou",
-                        number: "02",
-                        class: "jcc"
+                        number: "02"
                     },
                     {
                         image:img3,
                         name:"Ellan W. Gentry",
-                        number: "03",
-                        class: "jce"
+                        number: "03"
                     }
                 ],
                 isActive: 0,
-                class: "",
             }
         },
         methods: {
@@ -55,18 +51,7 @@ import img3 from './../assets/img/h3-img-08.png'
                     this.isActive = this.blogs.length - 1;
                 }
             },
-            
-
-        },
-        computed: {
-            showClass(){
-                this.class = this.blogs[this.isActive].class
-                return this.class
-
-            }
-            
         }
-
     }
 
 </script>
@@ -77,7 +62,7 @@ import img3 from './../assets/img/h3-img-08.png'
             <div class="btn-radious">
                 <i class="fa-solid fa-arrow-up-long"></i>
             </div>
-            <!-- <h1>Testimonials.</h1> -->
+            <h1>Testimonials.</h1>
             <div class="left" @click="showPrevious">    
                 <i class="fa-solid fa-arrow-left-long"></i>
             </div>
@@ -90,8 +75,20 @@ import img3 from './../assets/img/h3-img-08.png'
                 <p class="text-white">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quaerat, placeat quam ea fuga, veritatis nisi est commodi sed"</p>
                 <div class="d-flex justify-content-center align-items-center">
                     <div class="text-white">{{ blogs[isActive].number }}</div>
-                    <div class="line-100 mx-2" :class="class">
-                        <div class="line-33"></div>
+                    <div v-if="isActive == '0'">
+                        <div class="line-100 mx-2 jcs">
+                            <div class="line-33"></div>
+                        </div>
+                    </div>
+                    <div v-else-if="isActive == '1'">
+                        <div class="line-100 mx-2 jcc">
+                            <div class="line-33"></div>
+                        </div>
+                    </div>
+                    <div v-else-if="isActive == '2'">
+                        <div class="line-100 mx-2 jce">
+                            <div class="line-33"></div>
+                        </div>
                     </div>
                     <div class="text-white">03</div>
                 </div>

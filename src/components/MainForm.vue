@@ -88,6 +88,14 @@ img{
     width: 100%;
 }
 
+input, textarea{
+        &:focus-visible{
+            outline: none;
+
+        }
+    }
+
+
 .top{
     top: -20px;
 }

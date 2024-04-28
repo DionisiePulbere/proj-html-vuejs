@@ -60,6 +60,12 @@ section{
     }
 }
 
+i.fa-play{
+    &:hover{
+        color: $brand-primary;
+    }
+}
+
 .cart{
     background-color: white;
 }
